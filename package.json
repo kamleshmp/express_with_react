@@ -1,0 +1,16 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "A demo which includes frontend and backend based on json-web-token.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrent \"npm run client\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
