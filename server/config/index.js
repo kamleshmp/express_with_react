@@ -1,9 +1,9 @@
 module.exports = {
   port: 3000,
   db: {
-    name: 'crud_app',
-    user: 'postgres',
-    password: 'postgres'
+    name: 'crud_app_admin',
+    user: 'root',
+    password: 'root'
   },
   role: {
     admin: 2,

@@ -9,7 +9,7 @@ const env       = process.env.NODE_ENV || "development";
 let db        = {};
 
 const sequelize = new Sequelize(config.db.name, config.db.user, config.db.password, {
-  dialect: 'postgres',
+  dialect: 'mysql',
   timezone: '+08:00',
   native: true,
   define: {
